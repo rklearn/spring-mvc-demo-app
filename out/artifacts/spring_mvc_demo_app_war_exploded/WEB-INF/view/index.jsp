@@ -14,7 +14,11 @@
 
 <h2>Simple index page</h2>
 <hr>
-<a href="/showForm">Go to HelloWorld-form</a>
+<a href="showForm">Go to HelloWorld form</a>
+<br>
+<a href="student/showForm">Go to Student form</a>
+<br>
+<a href="customer/showForm">Go to Customer registration</a>
 
 </body>
 </html>

@@ -5,19 +5,17 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.servlet.http.HttpServletRequest;
-
 @Controller
 public class HelloWorldController {
 
     @RequestMapping("/showForm")
     public String showForm() {
-        return "helloworld-form";
+        return "helloworld/helloworld-form";
     }
 
     @RequestMapping("/processForm")
     public String processForm() {
-        return "helloworld";
+        return "helloworld/helloworld";
     }
 
     @RequestMapping("/processFormInUppercase")
@@ -26,6 +24,6 @@ public class HelloWorldController {
         String newMessage = "Yo! " + theName;
         model.addAttribute("message", newMessage);
 
-        return "helloworld";
+        return "helloworld/helloworld";
     }
 }

@@ -21,5 +21,8 @@ Hello World of Spring in uppercase!
 <br>
 Message - ${message}
 
+<hr>
+<a href="/">Go back to the index page</a>
+
 </body>
 </html>
